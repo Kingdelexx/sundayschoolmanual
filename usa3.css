@@ -76,7 +76,7 @@ button a{
 @media screen and (max-width:480px) {
     .banner{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                           rgba(0, 0, 0, 0.5)), url("../images/unnamed3.jpg");
+                           rgba(0, 0, 0, 0.5)), url(../images/unnamed3.jpg);
         background-size: cover;
         height: 100vh;
     } 
@@ -86,7 +86,7 @@ button a{
 @media (min-width:481px) and ( max-width:767px) {
     .banner{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                           rgba(0, 0, 0, 0.5)), url("../images/unnamed3.jpg");
+                           rgba(0, 0, 0, 0.5)), url(../images/unnamed3.jpg);
         background-size: cover;
         height: 100vh;
     }
