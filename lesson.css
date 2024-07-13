@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #dac4f6;
+}
+
+.topic{
+    background-color: #a287c6;
+}
+
+.topic h5,h3{
+    background-color: #a287c6;
+}
+
+.main-text h4{
+    text-align: justify;
+    font-family: "Work Sans", sans-serif;
+}
+
+.top h3{
+    font-family: "Roboto Mono", monospace;
+}
+.top h2{
+    font-family: "Ga Maamli", sans-serif;
+}
+
+/* .footer{
+    background-color: #8f71b7;
+    padding: 4px;
+} */

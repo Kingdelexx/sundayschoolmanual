@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+   
+}
+button a{
+    text-decoration: none;
+}
+.lessons .row a{
+    text-decoration: none;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(/images/unnamed3.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+
+.lessons{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.lessons h1{
+    font-family: "Playwrite MX", cursive;
+}
+
+.lessons .row .sundays{
+    background-color: #a287c6;
+    border-radius: 10px;
+    padding: 7px;
+}
+.lessons .row .sundays:hover {
+    background-color: #dac4f6;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+}
+
+.lessons .row .sundays h2{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.lessons .row .sundays h5{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container .ntlm{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.span span{
+    color: green;
+    border-radius: 10px;
+    font-weight: 600;
+    /* background-color: #a287c6; */
+    padding: 5px;
+    
+}
+
+.footer{
+    background-color: #8f71b7;
+    padding: 4px;
+}
+
+
+@media screen and (max-width:480px) {
+    .banner{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                           rgba(0, 0, 0, 0.5)), url(/images/unnamed3.jpg);
+        background-size: cover;
+        height: 100vh;
+    } 
+    
+}
+
+@media (min-width:481px) and ( max-width:767px) {
+    .banner{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                           rgba(0, 0, 0, 0.5)), url(/images/unnamed3.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+}
